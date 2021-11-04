@@ -13,6 +13,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'redis', '~> 4.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'devise', '~> 4.8'
+gem "omniauth"
+gem "omniauth-google-oauth2"
+gem "omniauth-rails_csrf_protection"
 gem 'simple_form', '~> 5.1.0'
 gem 'image_processing', '~> 1.2'
 gem 'bootsnap', '>= 1.4.4', require: false
